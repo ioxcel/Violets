@@ -1,0 +1,12 @@
+# Violet's uses only the Python standard library.
+# There are NO third-party packages to install -- "pip install" is not needed.
+#
+# To run Violet's you need:
+#
+#   - Python 3.8 or newer
+#   - A terminal with ANSI colour support (truecolor recommended)
+#   - The system "ping" command, used by the Ping tool
+#     (installed by default on Windows, macOS and Linux)
+#   - An internet connection for the online lookup tools
+#
+# Run it with:   python3 violets.py

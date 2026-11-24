@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.gif
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.tail
+
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
