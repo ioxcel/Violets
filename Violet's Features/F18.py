@@ -1,6 +1,6 @@
 """Checks an image for data hidden the simple way: extra bytes tacked on
 AFTER the real end of the image, and known file signatures (ZIP, PDF, RAR,
-etc.) buried inside it -- a classic trick for smuggling files past a glance.
+etc.) buried inside it, a common trick for smuggling files past a glance.
 It reports where the image should end, how many trailing bytes follow, and
 any embedded file headers it recognises, then offers to carve the hidden
 tail out to a file. This is signature/structure analysis, not deep stego.

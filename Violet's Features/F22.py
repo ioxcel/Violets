@@ -2,7 +2,7 @@
 and shows what it points to: server name, ID, description, approximate
 member and online counts, verification level, server features, the
 channel it lands in, and who created it. It only reads Discord's public
-invite data -- it does NOT join the server. Expired or invalid codes
+invite data and does NOT join the server. Expired or invalid codes
 return nothing.
 """
 import json

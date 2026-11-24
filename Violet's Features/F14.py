@@ -2,7 +2,7 @@
 (reverse geocoding), using OpenStreetMap's free Nominatim service. Type a
 place like 'Eiffel Tower, Paris' to get its latitude/longitude, or type
 'lat, lon' like '48.8584, 2.2945' to get the address there. Prints a map
-link either way. Nominatim asks for light use -- one lookup at a time.
+link either way. Nominatim asks for light use, so run one lookup at a time.
 """
 import json
 import re

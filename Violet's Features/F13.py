@@ -38,7 +38,7 @@ def F13():
             count = int(number)
             break
     if count:
-        print(f"\n\033[0;91m[!] Seen in {count:,} breaches -- do not use this password.\033[0m")
+        print(f"\n\033[0;91m[!] Seen in {count:,} breaches. Do not use this password.\033[0m")
     else:
         print("\n\033[0;92m[+] Not found in any known breach.\033[0m")
     print("\033[0;90mOnly the first 5 hash characters left your machine.\033[0m")

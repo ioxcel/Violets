@@ -1,7 +1,7 @@
 """Decodes a Discord snowflake ID (user, message, channel, server or
 role ID) into the exact date and time it was created, plus the internal
 worker, process and increment values Discord packs into every ID. This
-is pure maths on the number itself -- nothing is sent anywhere, so it
+is pure maths on the number itself. Nothing is sent anywhere, so it
 works offline and reveals nothing the ID did not already contain.
 """
 import datetime

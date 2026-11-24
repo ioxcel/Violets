@@ -1,5 +1,5 @@
 """Finds subdomains of a domain by reading public certificate transparency
-logs (crt.sh) -- every TLS certificate ever issued is logged there, which
+logs (crt.sh). Every TLS certificate ever issued is logged there, which
 quietly reveals hostnames. Enter a domain like example.com. crt.sh can be
 slow or rate-limited, so give it a moment.
 """

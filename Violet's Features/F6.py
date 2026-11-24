@@ -2,7 +2,7 @@
 issued to, who issued it, how long it is valid, the serial and SHA-256
 fingerprint, and every hostname it covers (the SAN list). Enter a hostname
 like example.com (optionally host:port; default port is 443). It reads the
-certificate the server presents -- nothing is sent or changed.
+certificate the server presents and changes nothing.
 """
 import hashlib
 import socket

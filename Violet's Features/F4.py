@@ -1,4 +1,4 @@
-"""Dumps the public DNS records for a domain -- A and AAAA (addresses),
+"""Dumps the public DNS records for a domain: A and AAAA (addresses),
 MX (mail servers), NS (nameservers), TXT (SPF/verification), CNAME and
 SOA. It uses Google's DNS-over-HTTPS resolver, so it works anywhere HTTPS
 does, with no DNS tools installed. Enter a domain like example.com.

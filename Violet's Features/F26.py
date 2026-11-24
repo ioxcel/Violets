@@ -3,7 +3,7 @@ number from its calling code, fully offline. Enter a number in international
 form, e.g. +44 7911 123456 or 0044... or 1-202-555-0143. It matches the
 longest dialling-code prefix and shows the country and the national-number
 length. It does NOT reveal the carrier, owner or whether the line is mobile
--- that needs a paid lookup service -- so treat this as country ID only.
+(that needs a paid lookup service), so treat this as country ID only.
 """
 import re
 
@@ -65,6 +65,6 @@ def F26():
             print(f"\033[0;97mCountry:\033[0m       {CODES[prefix]}")
             print(f"\033[0;97mNational no.:\033[0m  {national}  ({len(national)} digits)")
             print(f"\033[0;97mE.164:\033[0m        +{digits}")
-            print("\n\033[0;90mCountry from dialling code only -- not carrier or owner.\033[0m")
+            print("\n\033[0;90mCountry from dialling code only, not carrier or owner.\033[0m")
             return
     print("Could not match a country calling code. Include the country code (e.g. +44).")

@@ -1,7 +1,8 @@
 # Violet's
 
-A terminal toolkit for network recon, OSINT and digital forensics — thirty
-self-contained tools behind one animated menu. Pure Python, zero dependencies.
+A terminal toolkit for network reconnaissance, OSINT and digital forensics.
+Thirty self-contained tools behind one animated menu, written in pure Python
+with no external dependencies.
 
 ## Run it
 
@@ -9,9 +10,9 @@ self-contained tools behind one animated menu. Pure Python, zero dependencies.
 python3 violets.py
 ```
 
-Python 3.8+ (standard library only). See [`requirements.txt`](requirements.txt).
+Python 3.8 or newer, standard library only. See requirements.txt.
 
 ## License
 
-Copyright © 2026 Matas — all rights reserved. See [`LICENSE`](LICENSE).
-Third-party attribution: [`CREDITS.md`](CREDITS.md). Contact: contact@ioxcel.xyz
+Copyright (c) 2026 Matas. All rights reserved. See the LICENSE file.
+Third-party notices are in CREDITS.md. Contact: contact@ioxcel.xyz

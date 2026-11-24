@@ -1,5 +1,5 @@
 """Scans a file (any file, but handy on images) for human-readable text
-hidden inside its bytes -- like the classic 'strings' tool. It pulls out
+hidden inside its bytes, like the classic 'strings' tool. It pulls out
 runs of printable characters and then highlights anything that looks like a
 URL, email address, file path or key, which is where secrets and clues tend
 to hide. Enter a file path and an optional minimum length (default 4).

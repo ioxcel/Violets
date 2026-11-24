@@ -84,7 +84,7 @@ def F28():
             if text and key not in shown:
                 shown.add(key)
                 if not found:
-                    print("\033[0;90m-- from XMP --\033[0m")
+                    print("\033[0;90mfrom XMP:\033[0m")
                     found = True
                 print(f"\033[0;97m{key + ':':13s}\033[0m {text}")
     if not found:

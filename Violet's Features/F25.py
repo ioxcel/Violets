@@ -1,5 +1,5 @@
-"""Builds a Discord rich embed step by step -- title, description, link,
-colour, author, footer, images and any number of name/value fields -- and
+"""Builds a Discord rich embed step by step (title, description, link,
+colour, author, footer, images and any number of name/value fields) and
 shows a live preview of the embed card on the right as you fill it in. It
 prints the finished embed as JSON you can paste into your own code or bot,
 and can optionally post it straight to one of YOUR OWN webhooks to see it

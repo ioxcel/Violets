@@ -3,7 +3,7 @@ check an integration works and see how it handles volume. You choose
 whether each message is a plain message or a rich embed, the text, the
 sender name it shows as, an optional avatar, and how many copies to send
 (1-100). It confirms first, then sends them one at a time while respecting
-Discord's rate limits -- if Discord asks it to slow down it waits, so this
+Discord's rate limits. If Discord asks it to slow down it waits, so this
 is a throughput test, not a flood tool. After a run it can repeat with the
 same details or fresh ones. Only use it on webhooks you own; do not post
 into servers or channels you are not allowed to. A webhook URL is a secret;

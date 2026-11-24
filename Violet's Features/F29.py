@@ -2,7 +2,7 @@
 memorable passphrase from random words, or estimate how strong a password
 you already have is (its entropy in bits and rough crack time). Pick an
 option when prompted. Everything runs locally with Python's cryptographic
-'secrets' generator -- nothing you type or generate ever leaves the machine.
+'secrets' generator, so nothing you type or generate ever leaves the machine.
 """
 import math
 import secrets
@@ -92,6 +92,6 @@ def F29():
         print(f"\n\033[0;97mLength:\033[0m   {len(pw)}")
         print(f"\033[0;97mEntropy:\033[0m  ~{bits:.0f} bits  ({_rate(bits)}\033[0m)")
         print(f"\033[0;97mCrack:\033[0m    ~{_crack_time(bits)} at 100B guesses/sec (offline)")
-        print("\033[0;90mRough estimate -- a password in a breach list is weak at any length.\033[0m")
+        print("\033[0;90mRough estimate. A password in a breach list is weak at any length.\033[0m")
     else:
         print("Pick 1, 2 or 3.")

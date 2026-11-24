@@ -2,7 +2,7 @@
 online, who else posted it, or the original source. Give it a direct image
 URL (one ending in .jpg/.png/etc.) and it generates ready-to-click search
 links for Google Lens, Yandex (often best for faces/places), Bing Visual
-Search, TinEye and Karma Decay (Reddit). It builds links only -- you open
+Search, TinEye and Karma Decay (Reddit). It builds links only, so you open
 them in a browser. Searching by a local file means uploading it on the site.
 """
 import urllib.parse

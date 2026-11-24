@@ -1,4 +1,4 @@
-"""Violet's -- a terminal toolkit of network, OSINT, forensics and Discord
+"""Violet's: a terminal toolkit of network, OSINT, forensics and Discord
 utilities, each self-contained and run from a paged menu.
 
 Copyright (c) 2026 Matas. All rights reserved.

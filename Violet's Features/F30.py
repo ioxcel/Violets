@@ -1,4 +1,4 @@
-"""Looks up a card's BIN/IIN -- the first 6 to 8 digits -- to show the card
+"""Looks up a card's BIN/IIN (the first 6 to 8 digits) to show the card
 scheme (Visa/Mastercard/...), type (debit/credit), brand, the issuing bank
 and the country, via the free binlist.net service. Enter only the first 6-8
 digits, never a full card number. Use this on YOUR OWN cards or for fraud
@@ -26,7 +26,7 @@ def F30():
         if error.code == 404:
             print("BIN not found in the database.")
         elif error.code == 429:
-            print("Rate limited by binlist.net -- wait a while and retry.")
+            print("Rate limited by binlist.net, wait a while and retry.")
         else:
             print("Lookup failed:", error)
         return

@@ -1,6 +1,6 @@
 """Reads the details of one of YOUR OWN Discord webhooks. Paste the full
 webhook URL and it shows the webhook's name, ID, the channel and server
-it posts to, and its avatar -- so you can confirm exactly where a webhook
+it posts to, and its avatar, so you can confirm exactly where a webhook
 fires before you use it. This is a read-only lookup: no message is sent.
 Only use it on webhook URLs you own; a webhook URL is a secret, so keep
 it private.
